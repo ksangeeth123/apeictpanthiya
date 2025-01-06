@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon/bulb.ico" type="image/x-icon"> <!-- Add this line -->
+    <script src="script.js"></script>
+    <title>Ape ICT Panthiya</title>
+    <style>
+        /* resets */
+body { margin:0px; padding:0px; }
+
+/* main */
+header {
+    height: 360px;
+    z-index: 10;
+}
+.header-banner {
+    background-color: #333;
+    background-image: url('images/digital-global-connection-network-technology-background/23324.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+header h1 {
+    background-color: rgba(18,72,120, 0.8);
+    color: #fff;
+    padding: 0 1rem;
+    position: absolute;
+    top: 2rem; 
+    left: 2rem;
+}
+
+p{
+    text-align: justify;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #292f36;
+    /*position: fixed;*/
+    z-index: 10;
+}
+
+nav div {
+    color: white;
+    font-size: 2rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: hidden;
+}
+.visible-title {
+    visibility: visible;
+}
+
+nav ul { 
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width: 100%;
+}
+nav ul li { 
+    display: inline-block; 
+    line-height: 60px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none; 
+    color: #a9abae;
+}
+
+/* demo content */
+body { 
+    color: #292f36;
+    font-family: helvetica;
+    line-height: 1.6;
+}
+.content{ 
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 960px;
+    max-width: 100%;
+}
+article {
+    float: left;
+    width: 720px;
+}
+article p:first-of-type {
+    margin-top: 0;
+}
+/* Style for table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+    background-color: #333;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #333;
+}
+
+table tbody tr:hover {
+    background-color: #e0b3ff; /* Light purple on hover */
+}
+
+aside {
+    float: right;
+    width: 120px;
+}
+p img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+    .content{ 
+        padding: 2rem 0;
+    }
+    article {
+        float: none;
+        margin: 0 auto;
+        width: 96%;
+    }
+    article:last-of-type {  
+        margin-bottom: 3rem;
+    }
+    aside {  
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-banner">
+        <h1><a href="index.html" style="text-decoration: none; color: white;">ICT Panthiya</a></h1>
+    </div>
+    <div class="clear"></div>
+    <nav>
+        <div class="site-title">ICT Ape Panthiya</div>
+        <ul>
+            <li><a href="/archive">Notes</a></li>
+            <li><a href="/events">Tools</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+     
+<section class="content">
+    <article>
+        <h3><span style="background-color: yellow;">Client-Server Architecture</span></h3>
+
+<p>Client-Server Architecture is a model used in network computing where a central server provides resources, services, or data to multiple clients. This architecture is commonly used in various applications, including web services, email, and database systems.</p>
+
+<p><b>Key Components:</b></p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Client:</span> This is the front-end application or device that requests services or resources from the server. Clients can be web browsers, mobile apps, or any device connected to a network.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Server:</span> The server is a powerful central machine or application that provides resources, data, or services requested by clients. It processes client requests and sends back the appropriate responses.</p>
+
+<p><b>How It Works:</b></p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Request:</span> The client sends a request to the server for specific data or services.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Processing:</span> The server processes the request, retrieves the necessary information, and prepares a response.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Response:</span> The server sends the response back to the client, which then displays or processes the information as needed.</p>
+
+<p><b>Advantages of Client-Server Architecture:</b></p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Centralized Management:</span> Servers manage all resources, making updates, upgrades, and maintenance centralized and easier to handle.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Scalability:</span> New clients can be added without disrupting existing services, allowing the system to grow as needed.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Security:</span> Centralized servers can implement robust security measures, including data encryption, user authentication, and access control.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Resource Sharing:</span> Multiple clients can share server resources efficiently, reducing the overall cost of hardware and software.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Data Consistency:</span> Since data is stored centrally on the server, it ensures consistency and avoids data duplication.</p>
+
+<p><b>Disadvantages of Client-Server Architecture:</b></p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Single Point of Failure:</span> If the server goes down, all client services are disrupted, leading to potential downtime and loss of productivity.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">High Maintenance Cost:</span> Servers require regular maintenance, hardware upgrades, and skilled personnel to ensure smooth operations.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Resource Intensive:</span> Servers need to handle multiple client requests simultaneously, which can require significant computing power and memory.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Network Dependency:</span> The system heavily relies on network connectivity. Any network issues can affect the performance of the entire architecture.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Complexity:</span> Setting up and managing a client-server architecture can be complex, especially in large-scale environments.</p>
+
+<p><b>Three-Way Handshake</b></p>
+
+<p>The Three-Way Handshake is a process used in the Transmission Control Protocol (TCP) to establish a reliable connection between a client and a server. This process ensures that both parties are ready to communicate and that the connection is properly established. The three-way handshake occurs in three steps:</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">SYN (Synchronize):</span> The client sends a SYN message to the server to initiate the connection. This message contains a random initial sequence number (ISN), indicating that the client wants to start a connection.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">SYN-ACK (Synchronize-Acknowledge):</span> The server responds with a SYN-ACK message, acknowledging the client's SYN message. The server also sends its own sequence number to indicate it is ready to communicate.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">ACK (Acknowledge):</span> The client sends an ACK message back to the server, acknowledging the server&rsquo;s SYN-ACK. This final acknowledgment completes the handshake and establishes the connection.</p>
+
+<p>Once the three-way handshake is complete, the client and server can begin transmitting data over the established connection.</p>
+
+<p><b>Server Timeout</b></p>
+
+<p>A server timeout occurs when a server fails to respond to a request from a client within a specified time frame. In other words, it is the duration that the server waits before giving up on an incomplete or unfulfilled request. When this period expires, the server may return an error message, indicating that the request has timed out.</p>
+
+<p><b>Reasons for Server Timeout:</b></p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Slow Network Connections:</span> If the network connection between the client and the server is slow or unreliable, the server might take longer to process a request than expected, leading to a timeout.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Server Overload:</span> When a server is overloaded with too many requests or tasks, it may not be able to process new requests quickly, causing a delay and a possible timeout.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Long-Running Operations:</span> Certain operations, like complex database queries or large file transfers, may take more time than usual to complete, potentially leading to a timeout.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Unresponsive Services:</span> If the server relies on other external services or databases and those services fail to respond, it can cause a delay, resulting in a timeout.</p>
+
+<p><b>Why We Need Server Timeout:</b></p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Resource Management:</span> By setting a timeout, the server can avoid holding on to resources (e.g., memory, CPU) for too long, preventing inefficient use of system resources.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Preventing Endless Waiting:</span> Without a timeout, clients might wait indefinitely for a response from the server. A timeout ensures that clients do not experience prolonged delays.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Improving System Stability:</span> Server timeouts help the server maintain its responsiveness. They prevent one slow request from affecting the entire server, ensuring the server can continue to process other requests.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Error Handling:</span> Server timeouts provide a way to handle error situations gracefully. When a timeout occurs, the server can return an appropriate error message to the client, helping to identify and troubleshoot issues.</p>
+
+<p><span style="background-color: rgb(60, 249, 255);">Security:</span> A server that doesn't timeout might be vulnerable to certain types of attacks, like DoS (Denial of Service), where attackers send requests that tie up the server indefinitely. Timeout mechanisms prevent such vulnerabilities by ensuring that resources are released after a reasonable wait.</p>
+
+<p><h3><span style="background-color: yellow;">CISP (Internet Service Provider)</span></h3></p>
+
+<p>An Internet Service Provider (ISP) is a company or organization that provides individuals and businesses with access to the internet. ISPs offer various types of internet services, such as broadband, dial-up, fiber-optic, DSL, and satellite connections. They enable users to connect to the internet through a range of technologies, depending on the service offered.</p>
+
+<p>ISPs also often provide additional services such as:</p>
+<ul>
+<p><li>Email accounts</li></p>
+
+<p><li>Web hosting</li></p>
+
+<p><li>Domain name registration</li></p>
+
+<p><li>VPN (Virtual Private Network) services</li></p>
+</ul>
+
+<p>ISPs play a crucial role in ensuring that internet users have reliable and high-speed access to online resources, websites, and applications.</p>
+
+<p><b>Types of ISPs:</b></p>
+<ul>
+<p><li>Dial-up ISP:</li> Uses telephone lines to provide internet access, but it is slower and less commonly used today.</p>
+
+<p><li>DSL (Digital Subscriber Line) ISP:</li> Provides internet over existing phone lines with faster speeds than dial-up.</p>
+
+<p><li>Cable ISP:</li> Uses coaxial cable lines to provide high-speed internet access.</p>
+
+<p><li>Fiber-optic ISP:</li> Uses fiber-optic cables for ultra-fast internet speeds.</p>
+
+<p><li>Satellite ISP:</li> Uses satellite signals to provide internet access in remote areas.</p>
+
+<p><li>Wireless ISP:</li> Provides internet using radio signals for wireless connections.</p>
+</ul>
+
+<p><b>Examples of ISPs (Internet Service Providers):</b></p>
+<ul>
+<p><li>Comcast Xfinity:</li> A major ISP in the United States offering high-speed internet, TV, and phone services.</p>
+
+<p><li>AT&amp;T:</li> Another large ISP in the U.S., providing fiber-optic internet, DSL, and wireless services.</p>
+
+<p><li>Verizon:</li> Offers high-speed fiber-optic internet, DSL, and 5G services in the U.S.</p>
+
+<p><li>BT (British Telecom):</li> A major ISP in the UK offering broadband internet, landline phone, and TV services.</p>
+
+<p><li>Sky Broadband:</li> A leading ISP in the UK, offering broadband internet and TV packages.</p>
+
+<p><li>Vodafone:</li> A global ISP offering mobile broadband and internet services in various countries.</p>
+
+<p><li>Airtel:</li> One of India's largest ISPs, providing broadband, fiber-optic, and wireless internet services.</p>
+
+<p><li>Jio:</li> A popular ISP in India known for offering high-speed 4G internet and fiber-optic services.</p>
+
+<p><li>Singtel:</li> A major ISP in Singapore providing broadband and fiber-optic internet.</p>
+
+<p><li>T-Mobile:</li> Known for providing mobile broadband and home internet services in the U.S. and Europe.</p>
+</ul>
+
+<p><h3><span style="background-color: yellow;">Dark Web vs. Deep Web</span></h3></p>
+
+<p>Both the Dark Web and the Deep Web are parts of the internet that are not indexed by traditional search engines like Google or Bing. However, they differ in their purposes, accessibility, and risks.</p>
+
+<p><b>Deep Web</b></p>
+
+<p>The Deep Web refers to all parts of the internet that are not indexed by traditional search engines. This includes:</p>
+<ul>
+<p><li>Private databases (e.g., academic databases, subscription-based services, private records, or membership sites)</li></p>
+
+<p><li>Private email accounts</li></p>
+
+<p><li>Private cloud storage</li></p>
+
+<p><li>Unlisted websites</li></p>
+
+<p><li>Password-protected sites and more</li></p>
+</ul>
+
+<p>Essentially, any content that requires specific permissions or access credentials falls under the Deep Web. It's not necessarily harmful or illegal but is simply not accessible to the general public via standard search engines.</p>
+
+<p><b>Key Characteristics of the Deep Web:</b></p>
+<ul>
+<p><li>Accessible with proper credentials (login, subscription, etc.)</li></p>
+
+<p><li>Used for legitimate purposes (e.g., accessing private information, academic journals, company intranets)</li></p>
+
+<p><li>Much larger than the surface web (the part of the internet that is indexed by search engines)</li></p>
+</ul>
+<p><b>Dark Web</b></p>
+
+<p>The Dark Web is a small portion of the Deep Web, intentionally hidden and often associated with anonymity. It requires special software (like Tor) to access, and its websites have non-standard domain names (e.g., ending in &quot;.onion&quot; for Tor sites).</p>
+
+<p>While the Dark Web is sometimes used for illegal activities (such as the buying and selling of drugs, weapons, or illegal services), it also serves legitimate purposes for people who need to remain anonymous, like journalists, activists, and whistleblowers in oppressive regimes.</p>
+
+<p><b>Key Characteristics of the Dark Web:</b></p>
+<ul>
+<p><li>Requires specialized software (like Tor) to access</li></p>
+
+<p><li>Anonymity and privacy are prioritized</li></p>
+
+<p><li>It can host illegal and unethical activities (though not all content is illegal)</li></p>
+</ul>
+<p>Often associated with cybercrimes but also used for privacy and security by individuals who need to avoid government surveillance or censorship</p>
+
+<p><i><b>Differences Between the Deep Web and Dark Web:</b></i></p>
+
+<table>
+    <tr>
+        <th>Aspect</th>
+        <th>Deep Web</th>
+        <th>Dark Web</th>
+    </tr>
+    <tr>
+        <td>Accessibility</td>
+        <td>Requires specific access (login, subscription, etc.)</td>
+        <td>Requires special software (e.g., Tor)</td>
+    </tr>
+    <tr>
+        <td>Content</td>
+        <td>Legitimate content (e.g., private emails, databases, unlisted websites)</td>
+        <td>Anonymous, often illegal content (though also used for privacy-focused purposes)</td>
+    </tr>
+    <tr>
+        <td>Size</td>
+        <td>Much larger than the surface web</td>
+        <td>Much smaller, a small fraction of the Deep Web</td>
+    </tr>
+    <tr>
+        <td>Legality</td>
+        <td>Mostly legal and legitimate</td>
+        <td>Contains both legal and illegal content</td>
+    </tr>
+    <tr>
+        <td>Examples</td>
+        <td>Academic databases, private email accounts, private cloud storage</td>
+        <td>.onion websites, hidden marketplaces, forums</td>
+    </tr>
+</table>
+
+<p><h3><span style="background-color: yellow;">Search Engine (in Simple Terms)</span></h3></p>
+
+<p>A search engine is an online tool that helps you find information on the internet. You type a keyword or phrase into the search bar, and the search engine shows you a list of websites, images, videos, or other content that matches your search.</p>
+
+<p>Search engines work by using special algorithms to scan and index the web to give you the most relevant results based on your query.</p>
+
+<p>Examples of Search Engines:</p>
+
+<ul>
+<p><li>Google: The most widely used search engine that provides a variety of content like websites, images, videos, and more.</li></p>
+
+<p><li>Bing: A search engine by Microsoft, known for its clean interface and search features.</li></p>
+
+<p><li>Yahoo: One of the older search engines, still popular for news, email, and search.</li></p>
+
+<p><li>DuckDuckGo: A privacy-focused search engine that does not track your online activity.</li></p>
+
+<p><li>Baidu: A popular search engine in China, similar to Google but tailored for the Chinese market.</li></p>
+
+<p><li>Ecosia: A search engine that plants trees with the revenue generated from your searches.</li></p>
+</ul>
+
+<p><h3><span style="background-color: yellow;">What is Session Timeout (Simple Explanation)</span></h3></p>
+
+<p>Session timeout is the time a website or system allows you to stay logged in before it automatically logs you out. If you don't do anything on the site (like clicking or typing) for a certain amount of time, the session ends, and you have to log in again.</p>
+
+<p><b>Why Session Timeout is Needed (Simple Explanation):</b></p>
+<ul>
+
+<p><li>Security: If you leave your account open, someone could use it without your permission. Session timeout helps protect you by logging you out after a certain time of inactivity.</li></p>
+
+<p><li>Protects Resources: It helps free up resources on the website or system, so other users can use them without problems.</li></p>
+
+<p><li>Prevents Unauthorized Access: If you forget to log out, session timeout makes sure you're automatically logged out to avoid anyone else using your account.</li></p>
+
+<p><li>Meets Legal Requirements: Some rules and laws (like privacy laws) require websites to log out users after a certain time for safety.</li></p>
+
+</ul>
+
+    </article>
+    
+</section> 
+
+</body>
+</html>

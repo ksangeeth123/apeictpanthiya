@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon/bulb.ico" type="image/x-icon">
+    <title>Contact Us - Ape ICT Panthiya</title>
+    <style>
+        /* Global Resets */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #292f36;
+            overflow-x: hidden;
+        }
+
+        /* Header Styling */
+        header {
+            height: 360px;
+            z-index: 10;
+        }
+
+        .header-banner {
+            background: #333 url('images/digital-global-connection-network-technology-background/23324.jpg') center/cover no-repeat;
+            width: 100%;
+            height: 300px;
+        }
+
+        header h1 {
+            background-color: rgba(18, 72, 120, 0.8);
+            color: #fff;
+            padding: 1rem;
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            border-radius: 8px;
+        }
+
+        nav {
+            width: 100%;
+            height: 60px;
+            background: #292f36;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #a9abae;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
+        /* Content Section */
+        .content {
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            max-width: 960px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .content h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contact-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        /* Contact Item Styling */
+        .contact-item {
+            flex: 1;
+            min-width: 250px;
+            max-width: 400px;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        /* Contact Item Colors */
+        .contact-item:nth-child(1) {
+            background: #e0f7fa;
+            color: #00796b;
+        }
+
+        .contact-item:nth-child(2) {
+            background: #f3e5f5;
+            color: #8e24aa;
+        }
+
+        .contact-item:nth-child(3) {
+            background: #fff9c4;
+            color: #f57f17;
+        }
+
+        .contact-item:nth-child(4) {
+            background: #ffe0b2;
+            color: #fb8c00;
+        }
+
+        .contact-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-item h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact-item p {
+            margin: 0;
+        }
+
+        .contact-item p a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s;
+        }
+
+        .contact-item p a:hover {
+            color: #fff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            nav {
+                padding: 0 1rem;
+            }
+
+            .content {
+                padding: 2rem 1rem;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                height: auto;
+            }
+
+            .header-banner {
+                height: 200px;
+            }
+
+            header h1 {
+                position: static;
+                text-align: center;
+                margin-top: 1rem;
+                width: 100%;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .contact-details {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .contact-item {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="header-banner">
+        <h1><a href="index.html" style="text-decoration: none; color: white;">ICT Panthiya</a></h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="note.html">Notes</a></li>
+            <li><a href="tool.html">Tools</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="content">
+    <h2>Contact Us</h2>
+    <div class="contact-details">
+        <div class="contact-item">
+            <h3>Address</h3>
+            <p>PicoZen Software Solution, Mahara, Kadawatha.</p>
+        </div>
+        <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="mailto:ksangeeth179@gmail.com">ksangeeth179@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>Phone</h3>
+            <p>+94 78 587 7857</p>
+        </div>
+        <div class="contact-item">
+            <h3>Social Media</h3>
+            <p><a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
