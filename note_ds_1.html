@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon/bulb.ico" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Ape ICT Panthiya</title>
+    <style>
+        /* resets */
+        body, html { 
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        /* Header Section */
+        header {
+            position: relative;
+            height: 350px;
+            background-image: url('images/digital-global-connection-network-technology-background/23324.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            background-color: rgba(18,72,120, 0.7);
+            padding: 10px 20px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #dcdcdc;
+            font-size: 1.1rem;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff6347; /* tomato color */
+        }
+
+        /* Content Section */
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 40px;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+            background-color: #ffff99;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+
+        /* Text styling */
+        p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #333;
+            color: white;
+            font-weight: bold;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        table tbody tr:hover {
+            background-color: #e3e3e3;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Flowchart Section */
+        .flowchart {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .flowchart h4 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .flowchart ul {
+            margin-left: 20px;
+        }
+
+        .flowchart ul li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Responsive design */
+        @media only screen and (max-width: 1024px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                justify-content: center;
+            }
+
+            article {
+                padding: 15px;
+            }
+
+            table {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            article {
+                padding: 10px;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+
+        /* Hover and animation effects */
+        h3, p {
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        h3:hover, p:hover {
+            transform: translateX(5px);
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-banner">
+        <h1><a href="index.html" style="text-decoration: none; color: white;">ICT Panthiya</a></h1>
+    </div>
+    <div class="clear"></div>
+    <nav>
+        <div class="site-title">ICT Ape Panthiya</div>
+        <ul>
+            <li><a href="note.html">Notes</a></li>
+            <li><a href="tool.html">Tools</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <article>
+        <h3>Data Structures and Comparison</h3>
+        <p>
+            A <strong>data structure</strong> is a way of organizing and storing data so that it can be accessed and modified efficiently. Below are some examples of data structures and their comparisons:
+        </p>
+
+        <h4>Examples of Data Structures</h4>
+        <ul>
+            <li><strong>Array</strong>: A collection of elements, identified by index or key, where all elements are of the same data type.</li>
+            <li><strong>Linked List</strong>: A linear collection of nodes, each containing data and a reference to the next node in the sequence.</li>
+            <li><strong>Stack</strong>: A collection of elements that follows the Last In, First Out (LIFO) principle.</li>
+            <li><strong>Queue</strong>: A collection of elements that follows the First In, First Out (FIFO) principle.</li>
+            <li><strong>Hash Table</strong>: A data structure that stores data in key-value pairs, allowing for fast lookups by key.</li>
+            <li><strong>Tree</strong>: A hierarchical structure with nodes connected by edges, used for hierarchical data representation.</li>
+            <li><strong>Graph</strong>: A collection of nodes (vertices) and edges, used to represent networks or relationships.</li>
+        </ul>
+
+        <h4>Comparison of Data Structures</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Array</th>
+                    <th>Linked List</th>
+                    <th>Stack</th>
+                    <th>Queue</th>
+                    <th>Hash Table</th>
+                    <th>Tree</th>
+                    <th>Graph</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Access time</td>
+                    <td>O(1) (Direct access)</td>
+                    <td>O(n) (Linear search)</td>
+                    <td>O(1) (Top element)</td>
+                    <td>O(1) (Front element)</td>
+                    <td>O(1) (Direct access)</td>
+                    <td>O(log n) (Balanced)</td>
+                    <td>O(n) (DFS/BFS)</td>
+                </tr>
+                <tr>
+                    <td>Insertion/Deletion</td>
+                    <td>O(n) (Shifting elements)</td>
+                    <td>O(1) (At head or tail)</td>
+                    <td>O(1) (Push/Pop)</td>
+                    <td>O(1) (Enqueue/Dequeue)</td>
+                    <td>O(1) (Direct access)</td>
+                    <td>O(log n) (Balanced)</td>
+                    <td>O(1) (Adjacency list)</td>
+                </tr>
+                <tr>
+                    <td>Memory</td>
+                    <td>Contiguous memory block</td>
+                    <td>Non-contiguous (Dynamic)</td>
+                    <td>Non-contiguous</td>
+                    <td>Non-contiguous</td>
+                    <td>Non-contiguous (Dynamic)</td>
+                    <td>Non-contiguous</td>
+                    <td>Non-contiguous</td>
+                </tr>
+                <tr>
+                    <td>Search Efficiency</td>
+                    <td>O(n) (Linear search)</td>
+                    <td>O(n) (Linear search)</td>
+                    <td>O(n) (If not at top)</td>
+                    <td>O(n) (If not at front)</td>
+                    <td>O(1) (Direct access)</td>
+                    <td>O(n) (In-order, Pre-order, Post-order)</td>
+                    <td>O(n) (DFS/BFS)</td>
+                </tr>
+                <tr>
+                    <td>Best Use Case</td>
+                    <td>Fixed-size data, fast access</td>
+                    <td>Dynamic size, efficient insertions/deletions</td>
+                    <td>Undo, function calls</td>
+                    <td>Task scheduling</td>
+                    <td>Fast lookups by key</td>
+                    <td>Hierarchical data</td>
+                    <td>Networks, Relationships</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <!-- Flowchart Section -->
+    <article class="flowchart">
+        <h4>Introduction to Flowcharts</h4>
+        <p>
+            A <strong>flowchart</strong> is a diagram that represents a process or workflow. It uses different shapes such as rectangles, diamonds, and ovals to show steps in a process, decisions, and start or end points.
+        </p>
+        <h4>Basic Flowchart Shapes</h4>
+        <ul>
+            <li><strong>Oval</strong>: Represents the start or end of a process.</li>
+            <li><strong>Rectangle</strong>: Represents a process or action step.</li>
+            <li><strong>Diamond</strong>: Represents a decision point.</li>
+            <li><strong>Arrow</strong>: Represents the flow of the process from one step to another.</li>
+        </ul>
+
+        <h4>Basic Flowchart Concepts</h4>
+        <ul>
+            <li><strong>Sequence</strong>: Represents a linear process where each step follows the previous one.</li>
+            <li><strong>Iteration</strong>: Represents a loop, repeating a process until a condition is met.</li>
+            <li><strong>Condition</strong>: Represents a decision point where the flow branches based on yes/no or true/false answers.</li>
+        </ul>
+
+        <h4>Flowchart Example: Simple Algorithm</h4>
+        <ul>
+            <li><strong>Sequence</strong>: 
+                <ul>
+                    <li>Start the process</li>
+                    <li>Input two numbers</li>
+                    <li>Add the numbers</li>
+                    <li>Display the result</li>
+                    <li>End the process</li>
+                </ul>
+            </li>
+            <li><strong>Iteration</strong>: 
+                <ul>
+                    <li>Start the process</li>
+                    <li>Set a counter to 0</li>
+                    <li>Repeat the following steps until the counter reaches 5:
+                        <ul>
+                            <li>Increment the counter</li>
+                            <li>Print the counter</li>
+                        </ul>
+                    </li>
+                    <li>End the process</li>
+                </ul>
+            </li>
+            <li><strong>Condition</strong>: 
+                <ul>
+                    <li>Start the process</li>
+                    <li>Input a number</li>
+                    <li>If the number is even, print "Even"</li>
+                    <li>If the number is odd, print "Odd"</li>
+                    <li>End the process</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Example Flowchart</h4>
+        <img src="https://www.visual-paradigm.com/servlet/editor-content/tutorials/flowchart-tutorial/sites/7/2018/09/flowchart-example-simple-algorithms.png" alt="Example Flowchart" style="max-width: 100%; height: auto;">
+    </article>
+</div>
+
+</body>
+</html>
