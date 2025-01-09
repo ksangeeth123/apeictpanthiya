@@ -448,11 +448,12 @@ h3:hover, p:hover {
     <button id="download-btn">Download PDF</button>
 
 <script>
-    <button id="print-btn">Print Page</button>
-
-    document.getElementById('print-btn').addEventListener('click', function () {
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("printButton").addEventListener("click", function() {
         window.print();
     });
+});
+
 </script>
 
 </body>
